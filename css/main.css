@@ -5,10 +5,66 @@ html {
 body {
   background: #ffffff;
   max-width: 414px;
+  font-family: 'Roboto', sans-serif;
   margin: auto;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.menu {
+  display: flex;
+  gap: 17px;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 20px 8px 0;
+}
+
+.menu a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.who-where {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 53px 8px 0;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.who-where p {
+  margin: 10px 0 0;
+  padding-bottom: 47px;
+}
+
+.info {
+  text-transform: capitalize;
+  padding: 0 8px 0;
+}
+
+h2 {
+  font-size: 12px;
+  margin: 0;
+}
+
+.info p {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.info a {
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 15px;
 }
